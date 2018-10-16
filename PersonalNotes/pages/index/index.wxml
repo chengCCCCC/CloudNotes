@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view>
+  <view class='id'>
+    <form class='ssbd' bindsubmit='searchNote'>
+      <input class='ssk' type='text' placeholder='sousuo' placeholder-class='placeholder'/>
+    </form>
+  </view>
+  <view wx:for='{{biji}}' wx:key='date' class='xh'>
+    <view class='notes'>
+      <text class='viewNote'>{{item.note}}</text>
+      <text class='viewTime'>{{item.date}}</text>
+    </view>
+  </view>
+</view>

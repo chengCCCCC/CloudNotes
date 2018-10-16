@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/main/main",
+    "pages/my/my",
+    "pages/about/about",
+    "pages/author/author",
+    "pages/customer/customer",
+    "pages/proposal/proposal"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "个人云笔记",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {  
+    "color": "#a9b7b7",  
+    "selectedColor": "#11cd6e",  
+    "borderStyle": "black" ,
+    "list": [{  
+      "selectedIconPath": "material/images/index.jpg",  
+      "iconPath": "material/images/index.jpg",  
+      "pagePath": "pages/index/index",  
+      "text": "首页"  
+    },{
+      "selectedIconPath": "material/images/add.png",
+      "iconPath": "material/images/add.png",
+      "pagePath": "pages/main/main",
+      "text": "新增+"
+    },{
+      "selectedIconPath": "material/images/my.png",
+      "iconPath": "material/images/my.png",
+      "pagePath": "pages/my/my",
+      "text": "我的"
+    }
+    ]  
+  } 
+}

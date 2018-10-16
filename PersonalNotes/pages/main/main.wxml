@@ -1,0 +1,9 @@
+<view class='body'>
+  <view><text class='title'>新笔记</text></view>
+  <view class='index'>
+  <form bindsubmit='saveNote'>
+    <textarea class='newNote' name='note' auto-auto-focus='true'></textarea>
+    <button type='primary' form-type='submit' class='save'>保存</button>
+  </form>
+</view>
+</view>

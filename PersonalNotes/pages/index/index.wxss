@@ -1,0 +1,49 @@
+/**index.wxss**/
+.viewNote{
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:1;
+}
+
+.xh{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notes{
+  width: 90%;
+  height: 60px;
+  margin-top: 20px;
+  padding: 3px;
+  background-color: rgb(231, 235, 222);
+}
+
+.viewNote{
+  margin-bottom: 2px;
+}
+
+.ssk{
+  width: 320px;
+  height: 30px;
+  border-bottom-color: rgb(158, 156, 156);
+  border-bottom-width: 1px; 
+  border-bottom-style: solid;
+  /*border-radius: 30px;*/
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.id{
+  display: flex;
+  align-items: center;
+}
+
+.placeholder{
+  margin-left: 5px;
+}

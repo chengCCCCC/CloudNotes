@@ -1,0 +1,41 @@
+/* pages/my/my.wxss */
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgb(80, 80, 80);
+}
+
+.usermotto {
+  margin-top: 30px;
+}
+
+.serviceView{
+  width: 90%;
+  height: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  border-bottom-color: rgb(158, 156, 156);
+  border-bottom-width: 1px; 
+  border-bottom-style: solid;
+}
+
+.ximages{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.te{
+  
+}

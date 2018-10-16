@@ -1,0 +1,26 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+  <view class="user">
+      <button wx:if="{{!hasUserInfo}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+      <block wx:else>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="user-motto">{{userInfo.nickName}}</text>
+      </block>
+  </view>
+  <view class='serviceView' bindtap='goToAbout'>
+    <image src='../../material/images/about.png' class='ximages'></image>
+    <text class='te'>关于我们</text>
+  </view>
+  <view class='serviceView'  bindtap='goToProposal'>
+    <image src='../../material/images/proposal.png' class='ximages'></image>
+    <text class='te'>优化建议</text>
+  </view>
+  <view class='serviceView'  bindtap='goToCustomer'>
+    <image src='../../material/images/customerService.png' class='ximages'></image>
+    <text class='te'>在线客服</text>
+  </view>
+  <view class='serviceView'  bindtap='goToAuthor'>
+    <image src='../../material/images/author.png' class='ximages'></image>
+    <text class='te'>联系作者</text>
+  </view>
+</view>

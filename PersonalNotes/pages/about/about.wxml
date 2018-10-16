@@ -1,0 +1,15 @@
+<!--pages/about/about.wxml-->
+<view class='container'>
+  <view>
+    <image src='../../material/images/logo.png' class='logo'></image>
+  </view>
+  <view>
+    <text class='name'>个人笔记</text>
+  </view>
+  <view class='visclass'>
+    <text class='vis'>version 1.0.0</text>
+  </view>
+  <view class='aboutclass'>
+    <text class='about'>一款简单快速的个人记事备忘工具</text>
+  </view>
+</view>

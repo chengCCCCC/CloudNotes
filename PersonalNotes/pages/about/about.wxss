@@ -1,0 +1,10 @@
+/* pages/about/about.wxss */
+.visclass{
+  margin-top: 5px;
+}
+
+.aboutclass{
+  width: 90%;
+  margin-top: 10px;
+  text-align: center;
+}
